@@ -1,0 +1,67 @@
+.col-3 {flex: 25%;}
+.col-6 {flex: 50%;}
+.col-8 {flex: 66.66%;}
+.col-9 {flex: 75%;}
+.col-10 {flex: 83.33%;}
+.col-11 {flex: 91.66%;}
+.col-12 {flex: 100%;}
+
+.parent {
+    position: relative;
+}
+
+
+.email-input-container{
+    width: 78%;
+}
+
+
+.search-container {
+  display:flex;
+  justify-content:space-between;
+} 
+
+.go-button{
+    width: 20%;
+    margin-top: 8px;
+}
+.bottom-bar {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-150%);
+    right: 20px;
+  }
+
+  header .top-bar, header .content{   
+    margin: auto auto;
+  }  
+
+  section h2, section .row, section > p {   
+    margin: auto auto;
+    padding-top: 15px; 
+  }
+
+  footer .row{    
+    margin: auto auto; 
+  }
+
+  /* result */ 
+ .round {
+    margin: auto !important;
+}
+
+.search-results{
+   margin-top: 20px; 
+}
+
+.result .content .col-6{
+    padding: 5px;
+}
+
+.search-results {    
+    margin:auto;
+}
+.search-results .go-button{
+   width: 20%;
+   margin-top: 6px;
+}

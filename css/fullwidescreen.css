@@ -1,0 +1,39 @@
+header .top-bar, header .content{
+    width: 980px;
+    margin: auto auto;
+  }  
+
+  section h2, section .row, section > p {
+    width: 980px;
+    margin: auto auto;
+    padding-top: 15px; 
+  } 
+
+  .search-results-container{       
+    padding: 15px;
+    width: 100%;
+  }
+
+  .bottom-bar {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-150%);
+    right: 20px;
+  }
+
+  footer .row, .search-results {
+    width: 980px;
+    margin: auto auto; 
+  }
+
+  .search-container {
+    display:flex;
+    justify-content:space-between;
+  } 
+
+  .go-button{
+    width: 20%;
+    margin-top: 8px;
+}
+
+  

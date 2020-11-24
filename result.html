@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" media="screen and (min-width: 980px)" href="./css/fullwidescreen.css">
+<link rel="stylesheet" media="screen and (min-width: 768px)" href="./css/widescreen.css">
+<link rel="stylesheet" media="screen and (min-width: 600px)" href="./css/smallscreen.css">
+<link rel="icon" type="image/jpg" href="./assets/icon-favicon-16.jpg"/>
+<title>User Details</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="top-bar">
+                <a href="./index.html"><img class="logo" src="./assets/Logo@2x.png" /></a>             
+                <img class="person" src="./assets/icn_person@2x.png" />
+                <img class="search" src="./assets/icn_search@2x.png" />
+            </div>            
+        </header>
+        <section>
+            <div class="loader" id="loader"></div>
+            <div class="result" id="result">
+                    <h2> Result </h2>
+                    <h2 class="err" id="err">  </h2>
+                    <p class="text-center"> Look at the result below to see the details of the person you're. </p>                       
+                    <div id="dataResult"><h3>Search user below by entering the Email-Id</h3></div>
+            </div>            
+        </Section>
+        <div class="search-results-container"> 
+            <div class="search-results">
+                    <h2>Can't Find The Right Person?</h2>
+                    <div class="try-again"><span>Try Again</span> - Make a new search</div>
+                <div class="search-container">    
+                    <div class="email-input-container">
+                        <input class="email-input" id="email-input" type="text" />
+                        <!-- <div class="error" id="error">Email</div> -->
+                        <span class="floating-label" id="floating-label">Email</span>
+                    </div>
+                    <button id="search" class="go-button">Go!</button>
+                </div>
+                    <div class="email-lock"><img src="./assets/lock@2x.png" > Enter Any Email Address. They won't be notified.</div>
+            </div> 
+        </div>
+        <footer>
+               <div class="row">
+                    <div class="col-9 col-s-9">     
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="col-3 col-s-3 parent">                         
+                        <p class="bottom-bar">Terms | Privacy</p>
+                    </div>
+               </div>   
+        </footer>
+    </div>
+    <script src="common.js"></script>
+    <script src="user-details-refactored.js"></script>
+</body>
+</html>
