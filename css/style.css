@@ -269,6 +269,13 @@ footer p {
 
 
 /* result Page CSS */
+.result {
+    display: flex;
+    align-items: center;
+    min-height: 30vh;
+    flex: 0 0 auto;   
+    flex-direction: column;
+}
 .result-name{
     width: 28px;
     height: auto;
@@ -402,11 +409,6 @@ ul {
     text-align: center;
 }
 
-/* .search-results .go-button:hover{    
-    background-image: linear-gradient(225deg, #F2DA56 0%);
-    
-}  */
-
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
@@ -417,7 +419,7 @@ ul {
     animation: spin 2s linear infinite;
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 5vh; left: 0; bottom: 0; right: 0;
   }
   
   /* Safari */
